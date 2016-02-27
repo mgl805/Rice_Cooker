@@ -1,0 +1,79 @@
+JavaFX Basic Archetype
+======================
+
+A Maven archetype for generating a basic JavaFX starter project.
+This is an example JavaFX application which utilizes FXML, is in maven format, and includes packaging via the javafxpackager.
+
+
+GitHub
+======
+
+remote name: origin
+URI: https://github.com/mgl805/Rice_Cooker.git 
+host: github.com
+protocol: https
+user: mgl805 
+password: MGL805hiver2016 
+store in secure store: checked
+commit message: Initial import by Sylvose ALLOGO 12-02-2016
+author: Sylvose ALLOGO <Sylvose ALLOGO@192.168.2.30>
+commiter: Sylvose ALLOGO <Sylvose ALLOGO@192.168.2.30>
+
+
+SceneBuilder
+============
+C:\Users\Sylvose ALLOGO\AppData\Local\SceneBuilder\SceneBuilder.exe
+
+
+Required
+========
+ 
+ - Java 1.8.0_74+ (currently pre-release but required for javafxpackager if using Java 8)
+ - a file generated with keytool named javafx.ks in a directory named keystore which should be located in the users home directory
+
+    Example creation:
+
+        keytool -genkey -keystore javafx.ks -alias javafx
+        keytool -selfcert -alias javafx -keystore javafx.ks
+        
+        
+Usage 
+=====
+
+```
+ mvn archetype:generate -DarchetypeGroupId=com.zenjava -DarchetypeArtifactId=javafx-basic-archetype
+```
+
+See the JavaFX Maven Plugin for more details on using your generated project:
+https://github.com/javafx-maven-plugin/javafx-maven-plugin
+
+
+Licence
+=======
+
+The JavaFX Basic Archetype provides a Maven archetype for generating a basic JavaFX starter project. 
+
+Copyright (C) 2012  Daniel Zwolenski
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program.  If not, see http://www.gnu.org/licenses.
+
+
+Notes
+=====
+
+The better part of this example came from Andy Moncsek's demo pom file.
+The primary issue I ran into, was getting the example to run/debug from
+within my IDE, in this case NetBeans 7.2.  I thought it was a maven issue
+until I realized the example runs from the command line after a successful build
+from the IDE or command line.  Next I thought it was a NetBeans issue.  Ultimately
+I realized NetBeans could not find the JavaFX runtime when it launches the program.
+I solved it by adding a symbolic link to jfxrt.jar in the extensions directory.
+
+on OS X from /Library/Java/Extensions
+ln -s /Library/Java/JavaVirtualMachines/jdk1.8.0_74/Contents/Home/jre/lib/jfxrt.jar .
