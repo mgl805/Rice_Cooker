@@ -1,0 +1,12 @@
+ca.ets.mgl805.hiver2016.ricecooker.controller.cooking.fast
+ca.ets.mgl805.hiver2016.ricecooker.controller.cooking.normal
+ca.ets.mgl805.hiver2016.ricecooker.controller.cooking.slow
+ca.ets.mgl805.hiver2016.ricecooker.controller.cooking.thai
+ca.ets.mgl805.hiver2016.ricecooker.controller.onOffRiceSoaking
+ca.ets.mgl805.hiver2016.ricecooker.controller.onOffpower
+ca.ets.mgl805.hiver2016.ricecooker.controller.reheat
+ca.ets.mgl805.hiver2016.ricecooker.exception
+ca.ets.mgl805.hiver2016.ricecooker.model.db
+ca.ets.mgl805.hiver2016.ricecooker.model.entity
+ca.ets.mgl805.hiver2016.ricecooker.util
+ca.ets.mgl805.hiver2016.ricecooker.view

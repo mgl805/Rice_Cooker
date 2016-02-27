@@ -44,7 +44,7 @@ import javafx.scene.text.TextAlignment;
 import javafx.stage.Stage;
 
 /**
- * @Main - Main Application for the Rice Cooker Application
+ * Main - Main Application for the Rice Cooker Application
  * <a href="mailto:asylvose@yahoo.fr">Sylvose ALLOGO</a>
  * @version $Revision: 1.1 $
  * @since 14 February 2016 09:00:00

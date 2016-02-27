@@ -20,7 +20,7 @@ import javafx.scene.control.Alert.AlertType;
 import javafx.scene.layout.AnchorPane;
 
 /**
- * @CookingNormalController - a simple cooking normal controller class
+ * CookingNormalController - a simple cooking normal controller class
  * <a href="mailto:asylvose@yahoo.fr">Sylvose ALLOGO</a>
  * @version $Revision: 1.1 $
  * @since 14 February 2016 09:00:00
