@@ -8,8 +8,8 @@ package ca.ets.mgl805.hiver2016.ricecooker.model.db;
  */
 public interface DataBase {
 
-	int width = 450;
-    int height = 250;
+	int width = 650;
+    int height = 600;
     
 	String TITLE = "Cuiseur de riz par Alexis Leperlier, Maha Kharbech, Marwa Kharbech et Sylvose Allogo";
 	
@@ -52,15 +52,30 @@ public interface DataBase {
  	String NO_BUTTON_CLICKED = "No Button Cliked";
  	String PLEASE_CLICK_ON_A_BUTTON_IN_THE_LEFT_SIDE = "Please click on a button in the left side";
  	
- 	String LABEL_BTN_COOKING_THAI = "";
- 	String LABEL_BTN_COOKING_SLOW = "";
- 	String LABEL_BTN_COOKING_NORMAL = "";
- 	String LABEL_BTN_COOKING_FAST = "";
- 	String LABEL_BTN_ON_OFF_POWER= "";
- 	String LABEL_BTN_ON_OFF_RICE_SOAKING = "";
- 	String LABEL_BTN_REHEAT = "";
+ 	String LABEL_BTN_COOKING_THAI = "Riz Thai";
+ 	String LABEL_BTN_COOKING_SLOW = "Lent";
+ 	String LABEL_BTN_COOKING_NORMAL = "Normal";
+ 	String LABEL_BTN_COOKING_FAST = "Rapide";
+ 	String LABEL_BTN_ON_POWER= "Départ";
+ 	String LABEL_BTN_OFF_POWER= "Arrêt";
+ 	String LABEL_BTN_ON_OFF_RICE_SOAKING = "Trempage";
+ 	String LABEL_BTN_REHEAT = "Réchaud";
  	
  	String STYLE = "-fx-font: 22 arial; -fx-base: #b6e7c9;";
  	
  	String IS_NESTED_IN = "is nested in";
+ 	
+ 	//Liste des messages qui peuvent etre affichés
+ 	
+ 	String MSG_MARMITE = "Marmite absente";
+ 	String MSG_CLENTE = "Cuisson Lente";
+ 	String MSG_CNORMALE = "Cuisson Normale";
+ 	String MSG_CRAPIDE = "Cuisson Rapide";
+ 	String MSG_CTHAI = "Cuisson Riz Thai";
+ 	String MSG_TREMP = "Trempage";  // à ajouter dans la doc
+ 	String MSG_RECHAUD = "Réchauffage";  // à ajouter dans la doc
+ 	String ERR_CUISSON = "Action impossible! Le riz est déjà en cuisson";
+ 	String ERR_RECHAU = "Action impossible! Le Réchauffage est déjà activé";
+ 	String ERR_TREMP = "Action impossible! Le Trempage est déjà activé";
+ 	
 }
