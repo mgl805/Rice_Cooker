@@ -10,7 +10,7 @@
         </layout>
     </appender>
 
-    <logger name="${groupId}">
+    <logger name="ca.ets.mgl805.hiver2016.ricecooker">
         <level value="DEBUG"/>
     </logger>
 

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_8x0KAN3UEeWF04Voe0dwTw" name="RootElement" visibility="package">
+  <packagedElement xmi:type="uml:Model" xmi:id="_XW_44N3VEeWF04Voe0dwTw" name="java">
+    <packagedElement xmi:type="uml:Package" xmi:id="_XW_44d3VEeWF04Voe0dwTw" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_XW_44t3VEeWF04Voe0dwTw" name="lang">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_XW_4493VEeWF04Voe0dwTw" name="Runnable"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_XYcDUN3VEeWF04Voe0dwTw" name="String"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_XYcqYd3VEeWF04Voe0dwTw" name="Throwable"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_XXExYt3VEeWF04Voe0dwTw" name="net">
+        <packagedElement xmi:type="uml:Class" xmi:id="_XXExY93VEeWF04Voe0dwTw" name="URL"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_XXFYcN3VEeWF04Voe0dwTw" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_XXFYcd3VEeWF04Voe0dwTw" name="ResourceBundle"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_XYd4gN3VEeWF04Voe0dwTw" name="Collection"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_XYkmMN3VEeWF04Voe0dwTw" name="io">
+        <packagedElement xmi:type="uml:Class" xmi:id="_XYkmMd3VEeWF04Voe0dwTw" name="PrintStream"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_XYl0UN3VEeWF04Voe0dwTw" name="PrintWriter"/>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Model" xmi:id="_XYaOIN3VEeWF04Voe0dwTw" name="datatype">
+    <packagedElement xmi:type="uml:Package" xmi:id="_XYaOId3VEeWF04Voe0dwTw" name="datatype">
+      <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_XYa1MN3VEeWF04Voe0dwTw" name="Long"/>
+      <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_XYr68t3VEeWF04Voe0dwTw" name="Integer"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Model" xmi:id="_lowHQN3VEeWF04Voe0dwTw" name="ca.ets.mgl805.hiver2016.ricecooker">
+    <packagedElement xmi:type="uml:Package" xmi:id="_lo1m0N3VEeWF04Voe0dwTw" name="ca">
+      <packagedElement xmi:type="uml:Package" xmi:id="_lo1m0d3VEeWF04Voe0dwTw" name="ets">
+        <packagedElement xmi:type="uml:Package" xmi:id="_lo2N4N3VEeWF04Voe0dwTw" name="mgl805">
+          <packagedElement xmi:type="uml:Package" xmi:id="_lo2N4d3VEeWF04Voe0dwTw" name="hiver2016">
+            <packagedElement xmi:type="uml:Package" xmi:id="_lo2N4t3VEeWF04Voe0dwTw" name="ricecooker">
+              <packagedElement xmi:type="uml:Package" xmi:id="_lo2N493VEeWF04Voe0dwTw" name="view"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_lo7tcd3VEeWF04Voe0dwTw" name="javafx">
+      <packagedElement xmi:type="uml:Package" xmi:id="_lo7tct3VEeWF04Voe0dwTw" name="application">
+        <packagedElement xmi:type="uml:Class" xmi:id="_lo8UgN3VEeWF04Voe0dwTw" name="Application"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_lo9ioN3VEeWF04Voe0dwTw" name="scene">
+        <packagedElement xmi:type="uml:Package" xmi:id="_lo-JsN3VEeWF04Voe0dwTw" name="layout">
+          <packagedElement xmi:type="uml:Class" xmi:id="_lo-Jsd3VEeWF04Voe0dwTw" name="BorderPane"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_lpCbIN3VEeWF04Voe0dwTw" name="VBox"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_lpDCMN3VEeWF04Voe0dwTw" name="HBox"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_lo_X0N3VEeWF04Voe0dwTw" name="control">
+          <packagedElement xmi:type="uml:Class" xmi:id="_lo_X0d3VEeWF04Voe0dwTw" name="Button"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_lpB0EN3VEeWF04Voe0dwTw" name="text">
+          <packagedElement xmi:type="uml:Class" xmi:id="_lpB0Ed3VEeWF04Voe0dwTw" name="Text"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_lo-wwN3VEeWF04Voe0dwTw" name="stage">
+        <packagedElement xmi:type="uml:Class" xmi:id="_lo-wwd3VEeWF04Voe0dwTw" name="Stage"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_lpFecN3VEeWF04Voe0dwTw" name="event">
+        <packagedElement xmi:type="uml:Class" xmi:id="_lpFecd3VEeWF04Voe0dwTw" name="ActionEvent"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_lo87kN3VEeWF04Voe0dwTw" name="org">
+      <packagedElement xmi:type="uml:Package" xmi:id="_lo87kd3VEeWF04Voe0dwTw" name="slf4j">
+        <packagedElement xmi:type="uml:Class" xmi:id="_lo87kt3VEeWF04Voe0dwTw" name="Logger"/>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>
